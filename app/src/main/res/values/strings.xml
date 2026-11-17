@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Waktu Solat MY</string>
+    <string name="widget_description">Waktu solat seterusnya dan jadual hari ini daripada e-Solat JAKIM.</string>
+    <string name="copyright_notice">© 2026 fitrirusli</string>
+    <string name="copyright_widget">© fitrirusli</string>
+    <string name="hijri_today">Tarikh Islam hari ini</string>
+    <string name="hijri_calendar">Kalendar Hijrah</string>
+    <string name="open_hijri_calendar">Buka kalendar Hijrah</string>
+    <string name="calendar_link">Kalendar ›</string>
+    <string name="calendar_today">Hari ini</string>
+    <string name="calendar_close">Tutup</string>
+    <string name="calendar_previous">Bulan Hijrah sebelumnya</string>
+    <string name="calendar_next">Bulan Hijrah seterusnya</string>
+    <string name="calendar_legend">Tarikh Islam di atas · Masihi di bawah</string>
+    <string name="hijri_unavailable">Tarikh Hijrah belum tersedia</string>
+    <string name="calendar_empty">Muat turun jadual JAKIM dahulu untuk melihat kalendar Hijrah.</string>
+    <string name="calendar_source">Tarikh mengikut jadual harian e-Solat JAKIM.</string>
+    <string name="calendar_partial">Sebahagian bulan sahaja tersedia dalam jadual yang dimuat turun.</string>
+</resources>

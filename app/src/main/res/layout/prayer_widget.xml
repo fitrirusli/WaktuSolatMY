@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/widget_root"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/widget_background">
+    <LinearLayout android:id="@+id/widget_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_zone" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="KL · Putrajaya" android:textColor="#DAEFAD" android:textSize="13sp" android:fontFamily="sans-serif-medium" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:id="@+id/widget_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copyright_widget" android:textColor="#BDCFC4" android:textSize="9sp" android:includeFontPadding="false" android:maxLines="1" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_refresh" android:layout_width="40dp" android:layout_height="24dp" android:gravity="center" android:text="↻" android:textSize="22sp" android:textColor="#DAEFAD" android:contentDescription="Segar semula widget" />
+    </LinearLayout>
+    <TextView android:includeFontPadding="false" android:id="@+id/widget_next" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Waktu solat seterusnya" android:textColor="#FFFFFF" android:textSize="20sp" android:fontFamily="sans-serif-medium" android:maxLines="1" android:ellipsize="end" />
+    <TextView android:includeFontPadding="false" android:id="@+id/widget_date" android:visibility="gone" android:maxLines="1" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Buka app untuk memuatkan jadual" android:textColor="#BDCFC4" android:textSize="11sp" android:layout_marginTop="3dp" />
+    <TextView android:includeFontPadding="false" android:id="@+id/widget_countdown" android:visibility="gone" android:maxLines="1" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textColor="#DAEFAD" android:textSize="11sp" android:layout_marginTop="4dp" />
+    <LinearLayout android:id="@+id/widget_times" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:baselineAligned="false">
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_subuh" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Subuh\n—" android:textColor="#FFFFFF" android:textSize="11sp" android:gravity="center" android:lineSpacingExtra="2dp" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_zohor" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Zohor\n—" android:textColor="#FFFFFF" android:textSize="11sp" android:gravity="center" android:lineSpacingExtra="2dp" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_asar" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Asar\n—" android:textColor="#FFFFFF" android:textSize="11sp" android:gravity="center" android:lineSpacingExtra="2dp" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_maghrib" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Maghrib\n—" android:textColor="#FFFFFF" android:textSize="11sp" android:gravity="center" android:lineSpacingExtra="2dp" />
+        <TextView android:includeFontPadding="false" android:id="@+id/widget_isyak" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Isyak\n—" android:textColor="#FFFFFF" android:textSize="11sp" android:gravity="center" android:lineSpacingExtra="2dp" />
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>

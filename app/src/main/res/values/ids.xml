@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hijri_today_text" type="id" />
+    <item name="calendar_month_title" type="id" />
+    <item name="calendar_selected_hijri" type="id" />
+    <item name="calendar_selected_gregorian" type="id" />
+    <item name="calendar_grid" type="id" />
+</resources>
